@@ -1,13 +1,13 @@
 ---
 title: Node.js简述
-date: 2016-12-31 15:12:53
-tags: 
-- Backend
-- Node.js
-
+tags:
+  - Backend
+  - Node.js
 categories:
-- Backend
-- Node.js
+  - Backend
+  - Node.js
+abbrlink: 3540118f
+date: 2016-12-31 15:12:53
 ---
 # 什么是NodeJS
 　　Node.js采用模块化结构，按照CommonJS规范定义和使用模块。模块与文件是一一对应关系，即加载一个模块，实际上就是加载对应的一个模块文件。

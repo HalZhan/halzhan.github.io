@@ -1,13 +1,13 @@
 ---
 title: Hexo博客工具使用精粹
-date: 2018-08-25 15:52:07
 tags:
-- Hexo
-- Tools
-- Node.js
-
+  - Hexo
+  - Tools
+  - Node.js
 categories:
-- Tools
+  - Tools
+abbrlink: e4fe1ff8
+date: 2018-08-25 15:52:07
 ---
 # 主题
 ## 管理
