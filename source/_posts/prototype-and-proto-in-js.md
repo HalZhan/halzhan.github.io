@@ -1,12 +1,13 @@
 ---
 title: JS中的prototype和__proto__
+tags:
+  - Frontend
+  - Javascript
+categories:
+  - Frontend
+  - Javascript
+abbrlink: 316ed7a5
 date: 2017-11-23 09:48:32
-tags: 
-- Frontend
-- Javascript
-categories: 
-- Frontend
-- Javascript
 ---
 # 一、prototype和__proto__的概念
 prototype是函数的一个属性（每个函数都有一个prototype属性），这个属性是一个指针，指向一个对象。它是显示修改对象的原型的属性。
