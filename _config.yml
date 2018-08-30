@@ -74,14 +74,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:HalZhan/blog.git
-  branch: gh-pages
+  repo: git@github.com:HalZhan/halzhan.github.io.git
+  branch: master
   message:
 
 # Searching

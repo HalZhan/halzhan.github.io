@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Allow: /about/
 Allow: /archives/
 Allow: /categories/
 Allow: /tags/ 
@@ -11,5 +12,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://halzhan.cn/blog/sitemap.xml
-Sitemap: http://halzhan.cn/blog/baidusitemap.xml
+Sitemap: http://halzhan.cn/sitemap.xml
+Sitemap: http://halzhan.cn/baidusitemap.xml
