@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://halzhan.cn/Frontend/Javascript/prototype-and-proto-in-js/</loc>
+    <lastmod>2018-08-30T12:43:22.756Z</lastmod>
+    <data>
+        <display>
+        <title>JS中的prototype和__proto__</title>
+        <pubTime>2017-11-23T01:48:32.000Z</pubTime>
+        
+        <tag>Frontend</tag>
+         
+        <tag>Javascript</tag>
+         
+         
+           
+             
+              <breadCrumb title="Frontend" url="http://halzhan.cn/categories/Frontend/"/>
+          
+             
+              <breadCrumb title="Javascript" url="http://halzhan.cn/categories/Frontend/Javascript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://halzhan.cn/Technology/ape-and-flac/</loc>
+    <lastmod>2018-08-30T12:36:15.349Z</lastmod>
+    <data>
+        <display>
+        <title>无损音乐压缩格式ape与flac</title>
+        <pubTime>2017-11-23T03:59:00.000Z</pubTime>
+        
+        <tag>Coding</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="http://halzhan.cn/categories/Technology/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://halzhan.cn/Backend/Node-js/node-intro/</loc>
+    <lastmod>2018-08-30T11:44:51.843Z</lastmod>
+    <data>
+        <display>
+        <title>Node.js简述</title>
+        <pubTime>2016-12-31T07:12:53.000Z</pubTime>
+        
+        <tag>Node.js</tag>
+         
+        <tag>Backend</tag>
+         
+         
+           
+             
+              <breadCrumb title="Backend" url="http://halzhan.cn/categories/Backend/"/>
+          
+             
+              <breadCrumb title="Node.js" url="http://halzhan.cn/categories/Backend/Node-js/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://halzhan.cn/Tools/hexo-using-essences/</loc>
+    <lastmod>2018-08-30T11:44:51.842Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo博客工具使用精粹</title>
+        <pubTime>2018-08-25T07:52:07.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>Tools</tag>
+         
+        <tag>Node.js</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tools" url="http://halzhan.cn/categories/Tools/"/>
+          
+        </display>
+    </data>
+    </url>
+
+</urlset>
