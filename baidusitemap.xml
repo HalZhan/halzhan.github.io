@@ -4,54 +4,8 @@
 
     
   <url>
-    <loc>http://halzhan.cn/Frontend/Javascript/prototype-and-proto-in-js/</loc>
-    <lastmod>2018-08-30T12:43:22.756Z</lastmod>
-    <data>
-        <display>
-        <title>JS中的prototype和__proto__</title>
-        <pubTime>2017-11-23T01:48:32.000Z</pubTime>
-        
-        <tag>Frontend</tag>
-         
-        <tag>Javascript</tag>
-         
-         
-           
-             
-              <breadCrumb title="Frontend" url="http://halzhan.cn/categories/Frontend/"/>
-          
-             
-              <breadCrumb title="Javascript" url="http://halzhan.cn/categories/Frontend/Javascript/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://halzhan.cn/Technology/ape-and-flac/</loc>
-    <lastmod>2018-08-30T12:36:15.349Z</lastmod>
-    <data>
-        <display>
-        <title>无损音乐压缩格式ape与flac</title>
-        <pubTime>2017-11-23T03:59:00.000Z</pubTime>
-        
-        <tag>Coding</tag>
-         
-         
-           
-             
-              <breadCrumb title="Technology" url="http://halzhan.cn/categories/Technology/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
-    <loc>http://halzhan.cn/Backend/Node-js/node-intro/</loc>
-    <lastmod>2018-08-30T11:44:51.843Z</lastmod>
+    <loc>http://halzhan.cn/archives/3540118f.html</loc>
+    <lastmod>2018-08-30T13:08:25.576Z</lastmod>
     <data>
         <display>
         <title>Node.js简述</title>
@@ -74,10 +28,9 @@
     </url>
 
     
-    
   <url>
-    <loc>http://halzhan.cn/Tools/hexo-using-essences/</loc>
-    <lastmod>2018-08-30T11:44:51.842Z</lastmod>
+    <loc>http://halzhan.cn/archives/e4fe1ff8.html</loc>
+    <lastmod>2018-08-30T13:08:25.574Z</lastmod>
     <data>
         <display>
         <title>Hexo博客工具使用精粹</title>
@@ -98,4 +51,53 @@
     </data>
     </url>
 
+    
+  <url>
+    <loc>http://halzhan.cn/archives/316ed7a5.html</loc>
+    <lastmod>2018-08-30T13:05:38.759Z</lastmod>
+    <data>
+        <display>
+        <title>JS中的prototype和__proto__</title>
+        <pubTime>2017-11-23T01:48:32.000Z</pubTime>
+        
+        <tag>Javascript</tag>
+         
+        <tag>Frontend</tag>
+         
+         
+           
+             
+              <breadCrumb title="Frontend" url="http://halzhan.cn/categories/Frontend/"/>
+          
+             
+              <breadCrumb title="Javascript" url="http://halzhan.cn/categories/Frontend/Javascript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://halzhan.cn/archives/98802f1f.html</loc>
+    <lastmod>2018-08-30T13:05:38.754Z</lastmod>
+    <data>
+        <display>
+        <title>无损音乐压缩格式ape与flac</title>
+        <pubTime>2017-11-23T03:59:00.000Z</pubTime>
+        
+        <tag>Coding</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="http://halzhan.cn/categories/Technology/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
 </urlset>
