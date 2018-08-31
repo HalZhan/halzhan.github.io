@@ -4,7 +4,7 @@
   "private": true,
   "author": "Hal Zhan",
   "scripts": {
-    "writing": "hexo g -w",
+    "writing": "hexo clean && hexo g -w",
     "server": "hexo server -p 4000 --debug",
     "pub": "hexo clean && hexo g && hexo deploy"
   },
