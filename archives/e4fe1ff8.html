@@ -116,7 +116,7 @@
 <meta property="og:site_name" content="Hal Zhan&#39;s Blog">
 <meta property="og:description" content="主题管理大多数时候我们需要使用到第三方主题来进行我们博客站点的美化，一般来说都是通过git clone的方式拷贝到本地的themes目录里。但是这种clone到本地的第三方仓库是无法在git push时发布到远程仓库的，一旦你在另一台机器上新clone了一份自己仓库，你会发现themes下所有的内容都丢失了，又要重新clone一份，如果你还对第三方主题配置进行过很多修改，重新拷贝一份的话就意味着得">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-30T13:08:25.574Z">
+<meta property="og:updated_time" content="2018-08-31T02:11:55.765Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo博客工具使用精粹">
 <meta name="twitter:description" content="主题管理大多数时候我们需要使用到第三方主题来进行我们博客站点的美化，一般来说都是通过git clone的方式拷贝到本地的themes目录里。但是这种clone到本地的第三方仓库是无法在git push时发布到远程仓库的，一旦你在另一台机器上新clone了一份自己仓库，你会发现themes下所有的内容都丢失了，又要重新clone一份，如果你还对第三方主题配置进行过很多修改，重新拷贝一份的话就意味着得">
@@ -391,7 +391,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-08-30 21:08:25" itemprop="dateModified" datetime="2018-08-30T21:08:25+08:00">2018-08-30</time>
+                <time title="修改时间：2018-08-31 10:11:55" itemprop="dateModified" datetime="2018-08-31T10:11:55+08:00">2018-08-31</time>
               
             
           </span>
@@ -479,6 +479,8 @@
 <p>重新生成站点文件后进行本地伺服浏览：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo server -d</span><br></pre></td></tr></table></figure></p>
 <p>不过笔者在使用本地搜索时很大几率碰到搜索弹层无法展现的问题，查看了下返回的<code>search.xml</code>的内容，发现如下内容：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">error on line 6 at column 35: Input is not proper UTF-8, indicate encoding ! Bytes: 0x08 0xE5 0xAF 0xB9</span><br></pre></td></tr></table></figure></p>
 <p>很显然，我们的内容中存在非<code>utf-8</code>字符，使用你的编辑器可以查看下控制字符。应该会发现存在 <code>BS</code> 这样的控制字符。一一删除掉（或统一替换为<code>&quot;&quot;</code>），重新生成，应该就会没问题了。</p>
+<h1 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h1><h2 id="跳过渲染"><a href="#跳过渲染" class="headerlink" title="跳过渲染"></a>跳过渲染</h2><p>有时我们需要跳过一些文件的渲染，比如<code>readme.md</code>或用于搜索引擎验证的<code>html</code>文件，我们可以在根目录下的<code>_config.yml</code>中<code>skip_render</code>选项下定义多个我们想要跳过的文件（文件路径基于<code>soucre</code>目录）:<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">skip_render:</span> <span class="string">[readme.md,</span> <span class="string">googleXXX.html]</span></span><br></pre></td></tr></table></figure></p>
+<p>再次使用<code>hexo clean &amp;&amp; hexo g</code>命令就会发现这些文件不会被渲染了。</p>
 
       
     </div>
@@ -707,7 +709,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#主题"><span class="nav-number">1.</span> <span class="nav-text">主题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#管理"><span class="nav-number">1.1.</span> <span class="nav-text">管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#推荐列表"><span class="nav-number">1.2.</span> <span class="nav-text">推荐列表</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#搜索"><span class="nav-number">2.</span> <span class="nav-text">搜索</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#本地"><span class="nav-number">2.1.</span> <span class="nav-text">本地</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#主题"><span class="nav-number">1.</span> <span class="nav-text">主题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#管理"><span class="nav-number">1.1.</span> <span class="nav-text">管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#推荐列表"><span class="nav-number">1.2.</span> <span class="nav-text">推荐列表</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#搜索"><span class="nav-number">2.</span> <span class="nav-text">搜索</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#本地"><span class="nav-number">2.1.</span> <span class="nav-text">本地</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#文档"><span class="nav-number">3.</span> <span class="nav-text">文档</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#跳过渲染"><span class="nav-number">3.1.</span> <span class="nav-text">跳过渲染</span></a></li></ol></li></ol></div>
             
 
           </div>
