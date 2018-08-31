@@ -82,3 +82,11 @@ error on line 6 at column 35: Input is not proper UTF-8, indicate encoding ! Byt
 ```
 
 很显然，我们的内容中存在非`utf-8`字符，使用你的编辑器可以查看下控制字符。应该会发现存在 `BS` 这样的控制字符。一一删除掉（或统一替换为`""`），重新生成，应该就会没问题了。
+
+# 文档
+## 跳过渲染
+有时我们需要跳过一些文件的渲染，比如`readme.md`或用于搜索引擎验证的`html`文件，我们可以在根目录下的`_config.yml`中`skip_render`选项下定义多个我们想要跳过的文件（文件路径基于`soucre`目录）:
+```yml
+skip_render: [readme.md, googleXXX.html]
+```
+再次使用`hexo clean && hexo g`命令就会发现这些文件不会被渲染了。
