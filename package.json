@@ -6,6 +6,7 @@
   "scripts": {
     "writing": "hexo clean && hexo g -w",
     "server": "hexo server -p 4000 --debug",
+    "generate": "hexo clean && hexo g",
     "pub": "hexo clean && hexo g && hexo deploy"
   },
   "hexo": {
