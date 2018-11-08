@@ -3,10 +3,9 @@
 
 
     
-    
   <url>
     <loc>http://halzhan.cn/archives/e4fe1ff8.html</loc>
-    <lastmod>2018-08-31T02:11:55.765Z</lastmod>
+    <lastmod>2018-11-08T02:25:39.067Z</lastmod>
     <data>
         <display>
         <title>Hexo博客工具使用精粹</title>
@@ -28,6 +27,7 @@
     </url>
 
     
+    
   <url>
     <loc>http://halzhan.cn/archives/3540118f.html</loc>
     <lastmod>2018-08-30T13:08:25.576Z</lastmod>
@@ -47,31 +47,6 @@
           
              
               <breadCrumb title="Node.js" url="http://halzhan.cn/categories/Backend/Node-js/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://halzhan.cn/archives/316ed7a5.html</loc>
-    <lastmod>2018-08-30T13:05:38.759Z</lastmod>
-    <data>
-        <display>
-        <title>JS中的prototype和__proto__</title>
-        <pubTime>2017-11-23T01:48:32.000Z</pubTime>
-        
-        <tag>Frontend</tag>
-         
-        <tag>Javascript</tag>
-         
-         
-           
-             
-              <breadCrumb title="Frontend" url="http://halzhan.cn/categories/Frontend/"/>
-          
-             
-              <breadCrumb title="Javascript" url="http://halzhan.cn/categories/Frontend/Javascript/"/>
           
         </display>
     </data>
