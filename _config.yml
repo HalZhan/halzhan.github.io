@@ -4,8 +4,8 @@
 
 # Site
 title: Hal Zhan's Blog
-subtitle: Geek
-description: Hal Zhan's Personal Technology Blog
+subtitle: Hal Zhan's personal blog site.
+description: Geek
 keywords: technology,front-end,framework,node,javascript
 author: Hal Zhan
 language: zh-CN
@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://halzhan.cn
+url: http://blog.halzhan.cn
 root: /
 # permalink: :year/:month/:day/:title/
 # permalink: :category/:title/
