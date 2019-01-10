@@ -3,11 +3,10 @@ title: leetcode-514-freedom-trail
 abbrlink: c5ca0b86
 date: 2018-11-08 11:41:45
 tags:
- - Algorithm
  - Leetcode
 categories:
- - Leetcode
  - Algorithm
+ - Leetcode
 ---
 ## 原题描述
 

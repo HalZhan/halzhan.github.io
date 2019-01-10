@@ -2,9 +2,10 @@
 title: 无损音乐压缩格式ape与flac
 date: '2017-11-23 11:59'
 tags:
-  - Coding
+  - Technology
 categories:
   - Technology
+  - Coding
 abbrlink: 98802f1f
 ---
 　　无损压缩是在保证不损失源文件所有码率的前提下，将音频文件压缩的更小，也就是说这两种音频格式都能保证源文件码率的无损。但两种压缩格式毕竟为两种压缩算法，下面列举一下两种压缩格式的异同点：

@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hal Zhan's Blog
-subtitle: Hal Zhan's personal blog site.
+title: Hal Zhan
+subtitle: Hal Zhan's personal page.
 description: Geek
 keywords: technology,front-end,framework,node,javascript
 author: Hal Zhan
@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.halzhan.cn
+url: https://halzhan.cn
 root: /
 # permalink: :year/:month/:day/:title/
 # permalink: :category/:title/
@@ -83,7 +83,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: cactus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

@@ -1,7 +1,6 @@
 ---
 title: Node.js简述
 tags:
-  - Backend
   - Node.js
 categories:
   - Backend
