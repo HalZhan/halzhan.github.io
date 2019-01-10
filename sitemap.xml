@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://halzhan.cn/search/index.html</loc>
+    
+    <lastmod>2019-01-10T09:25:04.617Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://halzhan.cn/404.html</loc>
     
     <lastmod>2019-01-10T07:21:02.021Z</lastmod>
@@ -44,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://halzhan.cn/categories/index.html</loc>
+    <loc>https://halzhan.cn/category/index.html</loc>
     
     <lastmod>2019-01-10T02:32:31.350Z</lastmod>
     
