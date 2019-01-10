@@ -2,11 +2,14 @@ nav:
   home: 首页
   about: 关于
   articles: 归档
+  category: 目录
   projects: 项目
   search: 搜索
 
 footer:
   copyright: Copyright
+  total_views: 总访问量
+  total_visitors: 总访客量
 
 index:
   find_me_on: Find me on

@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/HalZhan
+# projects_url: http://github.com/HalZhan
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -17,8 +17,9 @@ nav:
   home: /
   # about: /about/
   articles: /archives/
-  目录: /categories/
-  # projects: projects_url
+  category: /category/
+  # projects: http://github.com/HalZhan
+  search: /search/
 
 
 # Links to your social media accounts.
@@ -147,3 +148,16 @@ baidu_analytics:
 # logo and/or favicons of you website.
 gravatar:
   email: name@email.com
+
+# 是否开启随机背景
+randomBack: true
+
+# 开启busuanzi网站统计
+busuanzi_count:
+  enable: true
+  total_visitors: true
+  total_visitors_icon: user
+  total_views: true
+  total_views_icon: eye
+  post_views: true
+  post_views_icon: eye

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>>
 <%- partial('_partial/head') %>
-<body class="max-width mx-auto px3 <%- theme.direction -%>">
+<body class="max-width mx-auto <% if (theme.randomBack) { %>min-full-screen<% } %>" data-elem="randomBack">
+  <div class="px3 <%- theme.direction -%> <% if (theme.randomBack) { %>random-back-alpha min-full-screen<% } %>">
     <% if (is_post()) { %>
       <%- partial('_partial/post/actions_desktop') %>
     <% } %>
-    <div class="content index py4">
+    <div class="content index py4 <% if (theme.randomBack) { %>min-full-screen<% } %>">
         <% if (!is_post()) { %>
           <%- partial('_partial/header') %>
         <% } %>
@@ -15,6 +16,7 @@
         <% } %>
         <%- partial('_partial/footer') %>
     </div>
+  </div>
 </body>
 </html>
 <%- partial('_partial/styles') %>

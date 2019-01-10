@@ -9,6 +9,8 @@ nav:
 
 footer:
   copyright: Copyright
+  total_views: Total Views
+  total_visitors: Total Visitors
 
 index:
   find_me_on: Find me on

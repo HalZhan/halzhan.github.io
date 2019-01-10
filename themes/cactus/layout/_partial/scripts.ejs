@@ -2,6 +2,15 @@
 <%- js('lib/jquery/jquery.min') %>
 <%- js('lib/justified-gallery/js/jquery.justifiedGallery.min.js') %>
 <%- js('js/main') %>
+<!-- random background iamge -->
+<% if (theme.randomBack || page.randomBack){ %>
+  <%- js('js/randomBack.js') %>
+  <script type="text/javascript">
+    (function() {
+      $('[data-elem="randomBack"]').randomBack(<%- JSON.stringify(site.data.backgrounds) %>);
+    }());
+  </script>
+<% } %>
 <!-- search -->
 <% if (config.search && (page.search || page.type === "search")){ %>
   <%- js('js/search.js') %>

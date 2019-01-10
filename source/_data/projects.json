@@ -1,0 +1,12 @@
+[
+    {
+       "name":"kiss-vuex",
+       "url":"https://halzhan.cn/kiss-vuex",
+       "desc":"An elegant syntactic sugar for vuex."
+    },
+    {
+       "name":"docdash-with-search",
+       "url":"https://halzhan.cn/docdash-with-search/",
+       "desc":"A beautiful api doc design for jsdoc."
+    }
+]

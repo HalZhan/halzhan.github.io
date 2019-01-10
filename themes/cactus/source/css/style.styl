@@ -13,12 +13,14 @@ global-reset()
 html
   margin: 0
   padding: 0
-  height: 100%
+  // height: 100%
+  min-height: 100%
   border-top: 2px solid $color-text
   -webkit-text-size-adjust: 100%
   -ms-text-size-adjust: 100%
 
 body
+  margin: 0
   height: 100%
   background-color: $color-background
   color: $color-text
@@ -191,3 +193,9 @@ code
 
   .line
     height: 22px
+
+.min-full-screen
+  min-height: 100vh
+
+.random-back-alpha
+  background-color: alpha(#fff, 0.6)
