@@ -1,7 +1,5 @@
 <!-- jquery -->
 <%- js('lib/jquery/jquery.min') %>
-<%- js('lib/justified-gallery/js/jquery.justifiedGallery.min.js') %>
-<%- js('js/main') %>
 <!-- random background iamge -->
 <% if (theme.randomBack || page.randomBack){ %>
   <%- js('js/randomBack.js') %>
@@ -11,6 +9,46 @@
     }());
   </script>
 <% } %>
+<% if (theme.justifiedGallery || page.justifiedGallery) { %>
+  <%- js('lib/justified-gallery/js/jquery.justifiedGallery.min.js') %>
+<% } %>
+<!-- fancybox -->
+<% if (theme.fancybox || page.fancybox) { %>
+  <!-- <%- js('lib/fancybox/js/jquery.fancybox.min.js') %> -->
+  <%- js('lib/fancybox2/jquery.fancybox.pack.js') %>
+  <script type="text/javascript">
+    // $(function() {
+      // $('.content img').each(function() {
+      //   if (!$(this).hasClass('nofancybox')){
+      //   var alt = this.alt || '';
+      //   var src = this.src || '';
+
+      //   if (alt){
+      //     $(this).after('<span class="caption">' + alt + '</span>');
+      //   }
+
+      //   $(this).wrap('<a href="' + src + '" data-fancybox="gallery" title="' + alt + '" />');
+      // }
+      // });
+    // });
+    (function($){
+      $('.content img').each(function(i) {
+        if (!$(this).hasClass('nofancybox')){
+          var alt = this.alt || '';
+          var src = this.src || '';
+
+          if (alt){
+            $(this).after('<span class="caption">' + alt + '</span>');
+          }
+
+          $(this).wrap('<a href="' + src + '" data-fancybox="gallery" class="fancybox" title="' + alt + '" rel="gallery"/>');
+        }
+      });
+      $('.fancybox').fancybox();
+    })(jQuery);
+  </script>
+<% } %>
+<%- js('js/main') %>
 <!-- search -->
 <% if (config.search && (page.search || page.type === "search")){ %>
   <%- js('js/search.js') %>
@@ -84,4 +122,6 @@
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         }());
     </script>
+<% } else if(is_post() && theme.gitment.enable && !!page.comments) { %>
+  <%- partial('_scripts/comments/gitment') %>
 <% } %>

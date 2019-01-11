@@ -161,3 +161,22 @@ busuanzi_count:
   total_views_icon: eye
   post_views: true
   post_views_icon: eye
+
+# 开启 fancybox
+fancybox: true
+
+# Gitment
+# Introduction: https://imsun.net/posts/gitment-introduction/
+gitment:
+  enable: true
+  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+  count: true # Show comments count in post meta area
+  lazy: false # Comments lazy loading with a button
+  cleanly: true # Hide 'Powered by ...' on footer, and more
+  language: # Force language, or auto switch by theme
+  github_user: HalZhan # MUST HAVE, Your Github Username
+  github_repo: comcat # MUST HAVE, The name of the repo you use to store Gitment comments
+  client_id: 1b7fd72552ecfc8c7068 # MUST HAVE, Github client id for the Gitment
+  client_secret: dfc3dbead4732d9482cc36b7362a566cbc04c712 # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
+  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled

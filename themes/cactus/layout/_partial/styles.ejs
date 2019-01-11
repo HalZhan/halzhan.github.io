@@ -1,3 +1,9 @@
 <!-- styles -->
 <%- css('lib/font-awesome/css/all.min.css') %>
-<%- css('lib/justified-gallery/css/justifiedGallery.min.css') %>
+<% if (theme.justifiedGallery || page.justifiedGallery) { %>
+    <%- css('lib/justified-gallery/css/justifiedGallery.min.css') %>
+<% } %>
+<% if (theme.fancybox || page.fancybox) { %>
+    <!-- <%- css('lib/fancybox/css/jquery.fancybox.min.css') %> -->
+    <%- css('lib/fancybox2/jquery.fancybox.css') %>
+<% } %>

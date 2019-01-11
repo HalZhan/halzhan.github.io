@@ -8,19 +8,40 @@
         "linear-gradient(to left top, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%)"
     ];
     $.fn.extend({
-        randomBack: function(images) {
+        randomBack: function(backgrounds) {
+            backgrounds =
+                $.isArray(backgrounds) && backgrounds.length
+                    ? backgrounds
+                    : GRADIENTS;
             // if (images && images.length) {
-            var idx = Math.floor(Math.random() * GRADIENTS.length);
+            var idx = Math.floor(Math.random() * backgrounds.length),
+                background = backgrounds[idx] || "";
             // var image = images[idx] || {};
             // var url = image.url || "";
 
-            if (GRADIENTS[idx]) {
+            if ($.isPlainObject(background)) {
+                $.each(
+                    ["url", "linear-gradient", "repeat-linear-gradient"],
+                    function(idx, val) {
+                        if (
+                            background[val] &&
+                            typeof background[val] === "string"
+                        ) {
+                            background = val + "(" + background[val] + ")";
+                            return false;
+                        }
+                    }
+                );
+            }
+
+            if (background && typeof background === "string") {
                 this.css({
-                    backgroundImage: GRADIENTS[idx],
+                    background: background,
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat"
                 });
             }
+
             // }
         }
     });

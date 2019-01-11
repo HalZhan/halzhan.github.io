@@ -39,3 +39,5 @@ pagination:
 
 comments:
   no_js: 加载评论需要在浏览器启用 JavaScript 脚本支持。
+
+gitmentbutton: 显示 Gitment 评论
