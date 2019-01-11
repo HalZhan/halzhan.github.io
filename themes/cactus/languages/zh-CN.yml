@@ -19,6 +19,7 @@ index:
   projects: 项目
 
 post:
+  updated: 最后更新
   desktop:
     previous: 上一篇
     next: 下一篇

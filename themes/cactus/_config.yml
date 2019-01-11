@@ -180,3 +180,6 @@ gitment:
   client_secret: dfc3dbead4732d9482cc36b7362a566cbc04c712 # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
+
+# Katex
+katex: true

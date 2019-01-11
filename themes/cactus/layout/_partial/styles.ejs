@@ -1,5 +1,9 @@
 <!-- styles -->
 <%- css('lib/font-awesome/css/all.min.css') %>
+<!-- <%- css('lib/katex/katex.min.css') %> -->
+<% if (theme.katex || page.katex) { %>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+<% } %>
 <% if (theme.justifiedGallery || page.justifiedGallery) { %>
     <%- css('lib/justified-gallery/css/justifiedGallery.min.css') %>
 <% } %>
