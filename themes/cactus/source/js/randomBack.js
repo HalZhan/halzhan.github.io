@@ -20,18 +20,23 @@
             // var url = image.url || "";
 
             if ($.isPlainObject(background)) {
-                $.each(
-                    ["url", "linear-gradient", "repeat-linear-gradient"],
-                    function(idx, val) {
-                        if (
-                            background[val] &&
-                            typeof background[val] === "string"
-                        ) {
-                            background = val + "(" + background[val] + ")";
-                            return false;
+                if (background.css && typeof background.css === "object") {
+                    this.css(background.css);
+                    return;
+                } else {
+                    $.each(
+                        ["url", "linear-gradient", "repeat-linear-gradient"],
+                        function(idx, val) {
+                            if (
+                                background[val] &&
+                                typeof background[val] === "string"
+                            ) {
+                                background = val + "(" + background[val] + ")";
+                                return false;
+                            }
                         }
-                    }
-                );
+                    );
+                }
             }
 
             if (background && typeof background === "string") {
